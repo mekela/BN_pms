@@ -10,8 +10,8 @@ $(window).scroll(function() {
 });
 
 //timer
-var endDate = new Date("Oct 25, 2019 12:00:00").getTime();
-var timer = setInterval(function () {
+var endDate = new Date("Jan 25, 2020 12:00:00").getTime();
+var timer = setInterval(function () { 
 let now = new Date().getTime();
 let t = endDate - now;
 if (t >= 0) {
